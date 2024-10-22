@@ -38,3 +38,30 @@ target_link_libraries(hellotriangle_ex
 	${ALL_LIBS}
 )
 
+
+add_executable(hellotriangle_dm1 ./hellotriangle/demo1.cpp ./src/glad.c)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(hellotriangle_dm1 PRIVATE  include)
+
+target_link_libraries(hellotriangle_dm1
+	${ALL_LIBS}
+)
+
+add_executable(hellotriangle_dm2 ./hellotriangle/demo2.cpp ./src/glad.c)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(hellotriangle_dm2 PRIVATE  include)
+
+target_link_libraries(hellotriangle_dm2
+	${ALL_LIBS}
+)
+
+add_executable(hellotriangle_dm3 ./hellotriangle/demo3.cpp ./src/glad.c)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(hellotriangle_dm3 PRIVATE  include)
+
+target_link_libraries(hellotriangle_dm3
+	${ALL_LIBS}
+)

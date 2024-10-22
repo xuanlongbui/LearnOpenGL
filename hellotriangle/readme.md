@@ -5,3 +5,12 @@
  A single vertex ->  [vertex shader] -> a collection of vertices -> [geometry shader] -> a primitive shape -> [primitive assembly] -> stage takes as input all the vertices -> [rasterization stage] ->  mapped the resulting primitive(s) -> [fragment shader ] ->  calculated the final color of a pixel -> [alpha test and blending stage] -> object
 
  We are required to define at least a vertex and fragment shader of our own
+
+VBO and VAO:
+    VBO (Vertex Buffer Object): Stores vertex data.
+    VAO (Vertex Array Object): Manages how OpenGL reads data from the VBO.
+
+Shaders: Programs that run on the GPU. The main types are:
+
+    Vertex Shader: Processes vertex data.
+    Fragment Shader: Handles the color of pixels.
