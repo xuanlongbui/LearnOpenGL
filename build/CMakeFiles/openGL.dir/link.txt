@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/openGL.dir/hellowindow/main.cpp.o CMakeFiles/openGL.dir/src/glad.c.o -o openGL  -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lGLEW

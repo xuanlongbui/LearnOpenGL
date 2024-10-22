@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hellowindow.dir/hellowindow/main.cpp.o CMakeFiles/hellowindow.dir/src/glad.c.o -o hellowindow  -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lGLEW

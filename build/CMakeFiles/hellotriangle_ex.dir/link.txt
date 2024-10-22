@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hellotriangle_ex.dir/hellotriangle/exercise.cpp.o CMakeFiles/hellotriangle_ex.dir/src/glad.c.o -o hellotriangle_ex  -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lGLEW

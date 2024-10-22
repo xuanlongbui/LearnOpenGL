@@ -1,0 +1,5 @@
+/home/test/share/C/opengl/build/CMakeFiles/hellowindow.dir
+/home/test/share/C/opengl/build/CMakeFiles/hellotriangle.dir
+/home/test/share/C/opengl/build/CMakeFiles/hellotriangle_ex.dir
+/home/test/share/C/opengl/build/CMakeFiles/edit_cache.dir
+/home/test/share/C/opengl/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/test/share/C/opengl/build",
+  "command": "/usr/bin/c++  -I/home/test/share/C/opengl/include -g -o CMakeFiles/hellowindow.dir/hellowindow/main.cpp.o -c /home/test/share/C/opengl/hellowindow/main.cpp",
+  "file": "/home/test/share/C/opengl/hellowindow/main.cpp",
+  "output": "CMakeFiles/hellowindow.dir/hellowindow/main.cpp.o"
+},
+{
+  "directory": "/home/test/share/C/opengl/build",
+  "command": "/usr/bin/cc  -I/home/test/share/C/opengl/include -g -o CMakeFiles/hellowindow.dir/src/glad.c.o -c /home/test/share/C/opengl/src/glad.c",
+  "file": "/home/test/share/C/opengl/src/glad.c",
+  "output": "CMakeFiles/hellowindow.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/test/share/C/opengl/build",
+  "command": "/usr/bin/c++  -I/home/test/share/C/opengl/include -g -o CMakeFiles/hellotriangle.dir/hellotriangle/main.cpp.o -c /home/test/share/C/opengl/hellotriangle/main.cpp",
+  "file": "/home/test/share/C/opengl/hellotriangle/main.cpp",
+  "output": "CMakeFiles/hellotriangle.dir/hellotriangle/main.cpp.o"
+},
+{
+  "directory": "/home/test/share/C/opengl/build",
+  "command": "/usr/bin/cc  -I/home/test/share/C/opengl/include -g -o CMakeFiles/hellotriangle.dir/src/glad.c.o -c /home/test/share/C/opengl/src/glad.c",
+  "file": "/home/test/share/C/opengl/src/glad.c",
+  "output": "CMakeFiles/hellotriangle.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/test/share/C/opengl/build",
+  "command": "/usr/bin/c++  -I/home/test/share/C/opengl/include -g -o CMakeFiles/hellotriangle_ex.dir/hellotriangle/exercise.cpp.o -c /home/test/share/C/opengl/hellotriangle/exercise.cpp",
+  "file": "/home/test/share/C/opengl/hellotriangle/exercise.cpp",
+  "output": "CMakeFiles/hellotriangle_ex.dir/hellotriangle/exercise.cpp.o"
+},
+{
+  "directory": "/home/test/share/C/opengl/build",
+  "command": "/usr/bin/cc  -I/home/test/share/C/opengl/include -g -o CMakeFiles/hellotriangle_ex.dir/src/glad.c.o -c /home/test/share/C/opengl/src/glad.c",
+  "file": "/home/test/share/C/opengl/src/glad.c",
+  "output": "CMakeFiles/hellotriangle_ex.dir/src/glad.c.o"
+}
+]
