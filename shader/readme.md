@@ -1,0 +1,2 @@
+The demo1: demostrate for Uniforms: Uniforms are another way to pass data from our application on the CPU to the shaders on the GPU. 
+The demo2: demostrate for Ins and outs:  Send data from one shader to the other and the introduce "fragment interpolation" concept

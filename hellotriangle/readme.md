@@ -9,8 +9,9 @@
 VBO and VAO:
     VBO (Vertex Buffer Object): Stores vertex data.
     VAO (Vertex Array Object): Manages how OpenGL reads data from the VBO.
-
+    EBO Element Buffer Objects
 Shaders: Programs that run on the GPU. The main types are:
 
     Vertex Shader: Processes vertex data.
     Fragment Shader: Handles the color of pixels.
+GLSL: GL Shader Language

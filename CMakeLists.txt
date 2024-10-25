@@ -65,3 +65,40 @@ target_include_directories(hellotriangle_dm3 PRIVATE  include)
 target_link_libraries(hellotriangle_dm3
 	${ALL_LIBS}
 )
+
+add_executable(shader_dm1 ./shader/demo1.cpp ./src/glad.c)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(shader_dm1 PRIVATE  include)
+
+target_link_libraries(shader_dm1
+	${ALL_LIBS}
+)
+
+
+add_executable(shader_dm2 ./shader/demo2.cpp ./src/glad.c)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(shader_dm2 PRIVATE  include)
+
+target_link_libraries(shader_dm2
+	${ALL_LIBS}
+)
+
+add_executable(shader_dm3 ./shader/demo3.cpp ./src/glad.c)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(shader_dm3 PRIVATE  include)
+
+target_link_libraries(shader_dm3
+	${ALL_LIBS}
+)
+
+add_executable(shader_main ./shader/main.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(shader_main PRIVATE  include)
+
+target_link_libraries(shader_main
+	${ALL_LIBS}
+)
