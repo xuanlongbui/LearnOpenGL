@@ -102,3 +102,58 @@ target_include_directories(shader_main PRIVATE  include)
 target_link_libraries(shader_main
 	${ALL_LIBS}
 )
+
+add_executable(textures_dm1 ./textures/demo1.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(textures_dm1 PRIVATE  include)
+
+target_link_libraries(textures_dm1
+	${ALL_LIBS}
+)
+
+add_executable(textures_dm2 ./textures/demo2.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(textures_dm2 PRIVATE  include)
+
+target_link_libraries(textures_dm2
+	${ALL_LIBS}
+)
+
+add_executable(textures_ex1 ./textures/ex1.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(textures_ex1 PRIVATE  include)
+
+target_link_libraries(textures_ex1
+	${ALL_LIBS}
+)
+
+add_executable(textures_ex2 ./textures/ex2.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(textures_ex2 PRIVATE  include)
+
+target_link_libraries(textures_ex2
+	${ALL_LIBS}
+)
+
+
+add_executable(textures_ex3 ./textures/ex3.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(textures_ex3 PRIVATE  include)
+
+target_link_libraries(textures_ex3
+	${ALL_LIBS}
+)
+
+add_executable(textures_ex4 ./textures/ex4.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(textures_ex4 PRIVATE  include)
+
+target_link_libraries(textures_ex4
+	${ALL_LIBS}
+)
