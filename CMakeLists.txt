@@ -157,3 +157,31 @@ target_include_directories(textures_ex4 PRIVATE  include)
 target_link_libraries(textures_ex4
 	${ALL_LIBS}
 )
+
+add_executable(transform ./transformations/transformations.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(transform PRIVATE  include)
+
+target_link_libraries(transform
+	${ALL_LIBS}
+)
+
+add_executable(transform_ex1 ./transformations/ex1.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(transform_ex1 PRIVATE  include)
+
+target_link_libraries(transform_ex1
+	${ALL_LIBS}
+)
+
+
+add_executable(transform_ex2 ./transformations/ex2.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(transform_ex2 PRIVATE  include)
+
+target_link_libraries(transform_ex2
+	${ALL_LIBS}
+)
