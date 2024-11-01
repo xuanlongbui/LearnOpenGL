@@ -185,3 +185,36 @@ target_include_directories(transform_ex2 PRIVATE  include)
 target_link_libraries(transform_ex2
 	${ALL_LIBS}
 )
+
+add_executable(coord_sys_dm1 ./coordinatesystems/demo1.cpp ./src/glad.c ./src/shader.cpp)
+find_package(glfw3 3.3 REQUIRED)
+
+target_include_directories(coord_sys_dm1 PRIVATE  include)
+
+target_link_libraries(coord_sys_dm1
+	${ALL_LIBS}
+)
+
+add_executable(coord_sys_dm2 ./coordinatesystems/demo2.cpp ./src/glad.c ./src/shader.cpp)
+
+target_include_directories(coord_sys_dm2 PRIVATE  include)
+
+target_link_libraries(coord_sys_dm2
+	${ALL_LIBS}
+)   
+
+add_executable(coord_sys_dm3 ./coordinatesystems/demo3.cpp ./src/glad.c ./src/shader.cpp)
+
+target_include_directories(coord_sys_dm3 PRIVATE  include)
+
+target_link_libraries(coord_sys_dm3
+	${ALL_LIBS}
+) 
+
+add_executable(coord_sys_ex1 ./coordinatesystems/ex1.cpp ./src/glad.c ./src/shader.cpp)
+
+target_include_directories(coord_sys_ex1 PRIVATE  include)
+
+target_link_libraries(coord_sys_ex1
+	${ALL_LIBS}
+) 

@@ -1,0 +1,35 @@
+Terms:
+ (NDC):normalized device coordinates:Normalized Device Coordinates (NDC) are a coordinate system used in computer graphics to describe positions on a virtual display device. In this system, the coordinates are normalized to a range from 0 to 1, where the lower-left corner corresponds to (0,0) and the upper-right corner corresponds to (1,1)
+
+Why NDC is Important:
+    Consistency Across Devices: NDC ensures that graphical objects are displayed consistently across different devices, regardless of their resolution or size1.
+    Simplified Calculations: By normalizing coordinates, many geometric and projection calculations become simpler and more efficient2.
+    Rendering Optimization: Using NDC helps optimize the rendering process by reducing the complexity of transforming coordinates from model space to screen space1.
+    Coordinate Transformation: NDC is a crucial step in the graphics pipeline, transforming coordinates from model space, world space, view space, and clip space before finally converting them to device coordinates for display2.
+
+How NDC Fits in the Graphics Pipeline:
+    Model Space: Coordinates relative to the object’s local origin.(x model matrix)
+    World Space: Coordinates relative to a global origin in the scene.(x view matrix)
+    View Space: Coordinates as seen from the camera’s perspective.(x projection matrix)
+    Clip Space: Coordinates after applying projection transformations.
+
+    NDC: Normalized coordinates in the range [0,1].
+    Device Coordinates: Final coordinates mapped to the actual screen pixels2.
+    NDC plays a vital role in ensuring that objects are rendered correctly and consistently, making it an essential concept in computer graphics.
+
+Types of Projection Transformations:
+    Orthographic Projection:
+        Characteristics: Parallel lines remain parallel after projection. There is no perspective distortion.
+        Use Cases: Commonly used in engineering and architectural drawings where accurate measurements are crucial.
+        Orthographic Matrix: This type of projection maintains the relative dimensions of objects, making it ideal for technical and engineering drawings where accurate measurements are crucial.
+        ->glm::ortho(left, right, bottom, top, near, far);
+    Perspective Projection:
+        Characteristics: Parallel lines converge at a vanishing point, creating a sense of depth and realism.
+        Use Cases: Widely used in video games, simulations, and any application requiring a realistic 3D appearance.
+    A perspective matrix: also known as a perspective projection matrix, is a 4x4 matrix used in computer graphics to perform perspective projection. This transformation converts 3D coordinates into 2D coordinates, creating the illusion of depth and distance on a flat screen.
+        ->glm::perspective(glm::radians(fov), aspect, near, far);
+
+OpenGL is a right-handed system.
+
+
+ Z-buffer, also known as a depth buffer: allows OpenGL to decide when to draw over a pixel and when not to
